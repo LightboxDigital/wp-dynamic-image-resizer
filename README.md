@@ -26,7 +26,7 @@ development approach meant that ongoing dev was more straight forward in terms o
 1. Upload `dynamic-image-resizer` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-Alternatively install using composer: `composer install lightboxdigital/wp-dynamic-image-resizer`
+Alternatively install using composer: `composer require lightboxdigital/wp-dynamic-image-resizer`
 
 ## Changelog
 
