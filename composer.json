@@ -1,17 +1,18 @@
 {
     "name": "lightboxdigital/wp-dynamic-image-resizer",
+	"type": "library",
+	"license": "MIT",
     "description": "Resize WordPress images on the fly without needing to register image sizes.",
-    "type": "library",
+	"keywords": ["wp", "wordpress", "images"],
+	"authors": [
+		{
+			"name": "Warren Bickley",
+			"email": "warren@lightboxdigital.co.uk"
+		}
+	],
     "require": {
     },
     "require-dev": {
         "phpunit/phpunit": "4.8.*"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Warren Bickley",
-            "email": "warren@lightboxdigital.co.uk"
-        }
-    ]
+    }
 }
