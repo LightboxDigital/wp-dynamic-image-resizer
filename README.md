@@ -5,7 +5,19 @@
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-Resize WordPress images on the fly without needing to register image sizes.
+Resize WordPress images on the fly without needing to register image sizes. This
+library allows you to request image sizes using already familiar functions such as `wp_get_attachment_image_src`.
+
+Instead of passing a named image size you can now pass an array containing width, height and crop like:
+
+```
+wp_get_attachment_image_src( $id, array( 400, 300, 1) );
+wp_get_attachment_image( $id, array( 400, 300, 1) );
+
+get_the_post_thumbnail( $postid, array( 400, 300, 1) );```
+
+The image will then be generated if it doesn't already exist, and the function will
+return values as normal.
 
 ## Description
 
