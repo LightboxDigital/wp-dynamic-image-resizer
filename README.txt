@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/LightboxDigital/wp-dynamic-image-resizer.svg?branch=master)](https://travis-ci.org/LightboxDigital/wp-dynamic-image-resizer)
+
 === Plugin Name ===
 Contributors: (this should be a list of wordpress.org userid's)
 Donate link: https://lightboxdigital.co.uk
@@ -12,8 +14,8 @@ Resize WordPress images on the fly without needing to register image sizes.
 
 == Description ==
 
-Thanks to [Tom McFarlin](https://twitter.com/tommcfarlin "Tom McFarlin's Twitter")
-and [Devin Vinson](https://twitter.com/devinvinson "Devin Vinson's Twitter") for
+Thanks to [Tom McFarlin](https://twitter.com/tommcfarlin)
+and [Devin Vinson](https://twitter.com/devinvinson) for
 their work on [WordPress Plugin Boilerplate Generator](http://wppb.me/).
 
 Thanks to [Tim Kinnane](https://twitter.com/timkinnane) and [Dalton Rooney](https://twitter.com/dalton)
