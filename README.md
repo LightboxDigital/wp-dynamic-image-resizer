@@ -44,6 +44,12 @@ Alternatively install as a plugin:
 
 ## Changelog
 
+#### 1.0.2
+* Fix where composer wouldn't actually autoload the necessary file
+
+#### 1.0.1
+* Readme markup issues resolved
+
 #### 1.0
 * Completely refactored on top of WPDB.
 * Added unit tests.
